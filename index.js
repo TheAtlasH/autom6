@@ -8,5 +8,6 @@ async function main(){
   await page.goto('https://gkeyboardchecker.com'),{
     timeout: 60 * 1000, waitUntill: 'networkidle0'}
   await page.keyboard.down('a')
+  
 }
 main();
